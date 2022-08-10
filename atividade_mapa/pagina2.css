@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'roboto', sans-serif;
+}
+header{  
+    width: 100%;
+    background-color: #4287f5;
+    display: flex;
+    justify-content: space-around;	
+    align-items: center;
+    padding: 20px 0;
+}	
+.logo-imagem{    
+    width: 50px;
+    height:50px;
+    float: left;
+    background: url(./img/logo.png) center center/70px no-repeat;
+    font-size: 0; 
+    border-radius: 20px;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo-texto{
+    font-size: 12px;
+    margin-left: 20px;
+    color: white;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 10);
+}
+.footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 0,9rem;
+}
+.footer h2{
+    color: #fff;
+}
+
+
+
+
+
+.main_tutorial{
+    max-width: calc(1300px - 40px);
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main_tutorial .main_tutorial_header{
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_tutorial .main_tutorial_header h1{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+.main_tutorial article{
+    opacity: 0.85;
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+}
+.main_tutorial article:hover{
+    opacity: 1;
+}
+
+.main_tutorial article img{
+    width: 100%;
+}
+
+.main_tutorial article p{
+    margin: 10px 0;
+}
+
+.main_tutorial article .category{
+    font-size: 0.875em;
+    color: #d36833;
+}
+
+.main_tutorial article h2{
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.main_tutorial article h2 a{
+    color: #333;
+}
+.main_suport{
+    width: 100%;
+    background-color: #2d3142;
+    margin: 40px 0;
+}
